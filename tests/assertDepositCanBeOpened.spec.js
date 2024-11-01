@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { faker } from '@faker-js/faker';
 
 test('Assert the deposit can be opened', async ({ page }) => {
 /* 
@@ -9,10 +10,15 @@ Test:
 4. Click [Deposit]
 5. Fill deposit value
 6. Click [Deposit]
-7. Assert success message
+7. Assert 'Deposit Successful' message is visible
 8. Assert Balance
-9. Click [Transacrions]
+9. Click [Transactions]
 10. Assert Deposit transaction
+
+Tips:
+1. Use faker to generate random value for deposit:
+- Import faker using command "import { faker } from '@faker-js/faker';"
+- Generate random amount value using "const amount = faker.number.int(100).toString();". Then use the "amount" in your test. 
 */
 
 });

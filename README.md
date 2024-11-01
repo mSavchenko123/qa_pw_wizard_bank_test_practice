@@ -6,4 +6,4 @@ This repo contains the task for creating test cases for Wizard Bank:
 - Assert correct customer Logout
 - Assert the deposit can be opened
 - Assert the empty transactions list
-- Assert the customer can withdraw money
+- Assert the customer cannot withdraw money from an empty balance
