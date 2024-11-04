@@ -13,7 +13,10 @@ Test:
 7. Assert 'Deposit Successful' message is visible
 8. Assert Balance
 9. Click [Transactions]
-10. Assert Deposit transaction
+10. Assert table heder is visible
+11. Reload the page
+12. Assert amount cell in First Row contains the required amount
+13. Assert transaction type cell in First Row contains the required type
 
 Tips:
 1. Use faker to generate random value for deposit:
