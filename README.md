@@ -60,8 +60,5 @@ Tests cover user scenarios such as:
 Tests are located in the `tests/` directory.  
 Playwright configuration is set in `playwright.config.js`.
 
----
-
-**Author:** mSavchenko123
 
 
