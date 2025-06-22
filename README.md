@@ -9,13 +9,13 @@ It is designed to automate testing for the Wizard Bank platform, ensuring the qu
 
 ## Repository Structure
 
-qa_pw_wizard_bank_test_practice/
+`qa_pw_wizard_bank_test_practice/
 ├── tests/ # Test cases for various Wizard Bank features
 ├── .gitignore # Git ignore rules
 ├── package.json # Node.js dependencies and scripts
 ├── package-lock.json # Lockfile for npm dependencies
 ├── playwright.config.js # Playwright configuration file
-├── README.md # Project documentation
+├── README.md # Project documentation`
 
 ## Used Technologies
 
