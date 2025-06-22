@@ -7,15 +7,7 @@ An automation testing project for the Wizard Bank demo application.
 This repository contains an end-to-end (E2E) testing framework built using Playwright.  
 It is designed to automate testing for the Wizard Bank platform, ensuring the quality and reliability of its core features such as customer login, transactions, deposits, and withdrawals.
 
-## Repository Structure
-
-qa_pw_wizard_bank_test_practice/
-├── tests/ # Test cases for various Wizard Bank features
-├── .gitignore # Git ignore rules
-├── package.json # Node.js dependencies and scripts
-├── package-lock.json # Lockfile for npm dependencies
-├── playwright.config.js # Playwright configuration file
-├── README.md # Project documentation
+<pre lang="markdown"> ## Repository Structure ```text qa_pw_wizard_bank_test_practice/ ├── tests/ # Test cases for various Wizard Bank features ├── .gitignore # Git ignore rules ├── package.json # Node.js dependencies and scripts ├── package-lock.json # Lockfile for npm dependencies ├── playwright.config.js # Playwright configuration file ├── README.md # Project documentation ``` </pre>
 
 ## Used Technologies
 
